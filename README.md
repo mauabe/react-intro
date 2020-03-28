@@ -1,2 +1,76 @@
-# react-intro
-# react-intro
+<h1 align="center">A Beginners Guide to React 2020</h1>
+
+
+<p align="center"><img src="./images/logo.png" width="200"></p>
+
+<p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+    
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+</p>
+
+These notes are intended to be used and studied in tandem with [Kent C. Dodds](https://egghead.io/instructors/kentcdodds)'s [A Beginners Guide to React (2020)](https://egghead.io/courses/the-beginner-s-guide-to-react) course.
+
+Generally, there is one document for each lesson in the course. Each section contains a link to the video and the code corresponding to that.
+
+## Course Goal
+
+This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React.
+
+## Table of Contents
+
+- [00. A Beginners Guide to React Introduction](00-course-introduction.md)
+- [01. Create a User Interface with Vanilla JavaScript and DOM](01-document-create-element.md)
+- [02. Create a User Interface with React’s createElement API](02-react-create-element.md)
+- [03. Create a User Interface with React’s JSX syntax](03-jsx.md)
+- [04. Use JSX effectively with React](04-jsx-tricks.md)
+- [05. Render two elements side-by-side with React Fragments](05-fragments.md)
+- [06. Create a Simple Reusable React Component](06-custom-component.md)
+- [07. Validate Custom React Component Props with PropTypes](07-prop-types.md)
+- [08. Understand and Use Interpolation in JSX](08-jsx-interpolation.md)
+- [09. Rerender a React Application](09-re-render.md)
+- [10. Style React Components with className and inline Styles](10-styling.md)
+- [11. Use Event Handlers with React](11-event-handlers.md)
+- [12. Manage state in a React Component with the useState hook](12-state.md)
+- [13. Manage side-effects in a React Component with the useEffect hook](13-side-effects.md)
+- [14. Use a lazy initializer with useState](14-lazy-initialization.md)
+- [15. Manage the useEffect dependency array](15-effect-deps.md)
+- [16. Create reusable custom hooks](16-custom-hooks.md)
+- [17. Manipulate the DOM with React refs](17-dom-refs.md)
+- [18. Understand the React Hook Flow](18-hook-flow.md)
+- [19. Make Basic Forms with React](19-basic-forms.md)
+- [20. Make Dynamic Forms with React](20-dynamic-forms.md)
+- [21. Controlling Form Values with React](21-controlled-forms.md)
+- [22. Using React Error Boundaries to handle errors in React Components](22-error-boundaries.md)
+- [23. Use the key prop when Rendering a List with React](23-rendering-lists.md)
+- [24. Lifting and colocating React State](24-lifting-and-colocating.md)
+- [25. Make HTTP Requests with React](25-http.md)
+- [26. Handle HTTP Errors with React](26-http-errors.md)
+- [27. Install and use React DevTools](27-react-devtools.md)
+- [28. Build and deploy a React Application with Codesandbox, GitHub, and Netlify](28-deploy-react-app.md)
+- [29. A Beginners Guide to React Outro](29-course-outro.md)
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/rosaxny"><img src="https://avatars3.githubusercontent.com/u/35818464?s=460&u=32415b72a80f1da93072ae707e01222338bfa779&v=4" width="100px;" alt=""/><br /><sub><b>rosaxny</b></sub></a><br /><a href="#content-rosaxny" title="Content">🖋</a>
+      </td>
+      <td align="center"><a href="https://github.com/koji"><img src="https://avatars3.githubusercontent.com/u/474225?s=460&u=1b19c8e037cd73221c4d7130061270a4b2e949df&v=4" width="100px;" alt=""/><br /><sub><b>Koji</b></sub></a><br /><a href="#content-koji" title="Content">🖋</a></td>
+      </td>
+
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
