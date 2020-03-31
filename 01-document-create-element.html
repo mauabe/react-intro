@@ -1,0 +1,27 @@
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+  <script type="text/babel">
+    const rootElement = document.getElementById('root')
+    // const element = React.createElement('div', {
+      // children: 'Hello Mauricio',
+      // children: ['Hello World,', 'Goodbye World'],
+      // children: React.createElement('span', null, 'Hello ', 'World'),
+      // className:'container'
+    // })//, 'Hello World,', 'Goodbye World')
+    const element = <div className='container'>Hello world</div>
+    ReactDOM.render(element, rootElement)
+    // const element = document.createElement('div')
+    // const element2 = document.createElement('span')
+    // const break1 = document.createElement('br')
+    // element.textContent = 'Hello Mauricio'
+    // element2.textContent = 'Hello Mauricio2'
+    // element.className = 'container'
+    // element2.className = ' &nbsp; container2'
+    // rootElement.appendChild(element)
+    // element.appendChild(break1)
+    // element.appendChild(element2)
+  </script>
+</body>
