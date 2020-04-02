@@ -1,0 +1,25 @@
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+  <script type="text/babel">
+    // creating a function component, that accepts a props object and returns a React Element
+    // it passes JSX attributes and children to this component as a single object “props”
+    function Message3({ children }) {
+      return <div className="message3">{children}</div>;
+    }
+    function Message5({ children }) {
+      return <div className="message5">{children}</div>;
+    }
+
+    const element = (
+      <div className="container">
+        <Message3>Hello World</Message3>
+        <Message5>Goodbye World</Message5>
+      </div>
+    );
+
+    ReactDOM.render(element, document.getElementById('root'));
+  </script>
+</body>
